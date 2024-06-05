@@ -3,14 +3,19 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Webcam Stream</title>
+  <title>Mivrox</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <h1>Webcam Stream</h1>
-  <video id="hostVideo" autoplay></video>
-  <video id="viewerVideo" autoplay></video>
+  <div class="video-container">
+    <video id="hostVideo" autoplay></video>
+    <video id="viewerVideo" autoplay></video>
+  </div>
   <script src="/socket.io/socket.io.js"></script>
   <script src="script.js"></script>
 </body>
+<footer>
+  <p>Made by Mridul</p>
+</footer>
 </html>
